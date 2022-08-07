@@ -1,0 +1,45 @@
+:root {
+    --background: grey;
+}
+
+body {
+    background-color: var(--background);
+}
+
+.time-border {
+    width: 35%;
+    margin: 15% auto;
+    
+}
+
+.the-timer {
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 1.4rem;
+    font-size: 6rem;
+    text-align: center;
+}
+
+@media (max-width: 980px) {
+    .the-timer {
+        border: 3px solid black;
+        border-radius: 20px;
+        padding: 1.4rem;
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .the-timer {
+        border: 3px solid black;
+        border-radius: 20px;
+        padding: 1.4rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+.btn {
+    width: 100%;
+}
