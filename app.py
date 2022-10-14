@@ -1,9 +1,10 @@
-from flask import Flask  
+from flask import Flask
 from flask import render_template
 from flaskwebgui import FlaskUI
 
 app = Flask(__name__)
 ui = FlaskUI(app, width=800, height=500)
+
 
 @app.route("/")
 def home():
